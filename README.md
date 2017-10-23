@@ -23,6 +23,7 @@ Git is used to help move files into or out of Github. Git tracks file verisons a
 1. Now open your _**c9**_ and log in
 2. Click on the gear icon in the top right
 2. Click on SSH Keys and copy and the 2nd SSH key on the bottom "Connect to your private git repository Add this key to authorized keys list on your code hosting service (gitlab/github/bitbucket etc.)"
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-19%20at%201.21.32%20PM.png)
 3. Paste it to your key section in the Github page that you still have open.
 
 #### Congrats your are done setting up your SSH key, and are ready to link and push to Github!
@@ -38,9 +39,12 @@ Git is used to help move files into or out of Github. Git tracks file verisons a
 * Once the desired files are added, you do "**git commit -m 'message'**" afterwards, then the files is commited and saved. 
 * "**Git commit -m 'message'**" creates a verion of the git file and you can rollback to it if anything unexpected happens to the current verison.
 
+```html
+jeffreyg2240:~/workspace/github-tutorial (master) $ git commit -m "Commit example"
+[master d319951] Commit example
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+```
 Additionally if you want to "**git push**" it to github, you need to link the SSH and create a github repository with the same name as the c9 file.
-
-
 
 ---
 ## [Workflow & Commands](https://docs.google.com/presentation/d/1b777MzxqxIpTITSXiPOdn9427Oo7VclwecAiZ-5boy8/edit#slide=id.ge18f0c268_0_31)
@@ -89,6 +93,12 @@ $ git commit -m "added a explaination of git commit"
 * _origin_, must be the same name you named the bridge, remote, in "**Git remote add origin URL**".
 * **master**, the _**default** main branch_, unless manually changed.
 
+Afterwards you can type "**git remote -v**" to check where your c9 is connected to in github.
+```html
+jeffreyg2240:~/workspace/github-tutorial (master) $ git remote -v
+origin  git@github.com:Jeffreyg2240/github-tutorial.git (fetch)
+origin  git@github.com:Jeffreyg2240/github-tutorial.git (push)
+```
 ---
 ## [Rolling Back Changes](https://docs.google.com/presentation/d/1yBhhaSNtHEC4Sqc-jMxeMMqPeNOT7zVuiOU_e5eWV_8/edit#slide=id.g25a990f774_1_10)
 
