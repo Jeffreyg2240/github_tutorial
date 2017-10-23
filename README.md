@@ -14,9 +14,11 @@ Git is used to help move files into or out of Github. Git tracks file verisons a
 ## Initial Setup
 1. First open your Github
 1. Then click on your icon in the top right, make sure you see the drop down menu
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-19%20at%201.11.56%20PM.png)
 1. Click on settings
 1. Once in settings click on SSH and GPG keys.
-1. Click on add new SSH key
+1. Click on new SSH key  
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-19%20at%201.11.33%20PM.png)
 1. Name it "** c9 - 'Name' "  ***(Dont close the page)***
 1. Now open your _**c9**_ and log in
 2. Click on the gear icon in the top right
@@ -29,6 +31,7 @@ Git is used to help move files into or out of Github. Git tracks file verisons a
 ## Repository Setup
 * "**Git init**" stands for git initize. It helps initize the folder/repository so that other git commands, like "**git add**", "git commit**", and "**git remote**".  
 * There are 3 parts to the git project, working directory, staging area, and repository.  
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-20%20at%201.00.39%20PM.pnghttps://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-20%20at%201.00.39%20PM.png)
 * The working directory is where you will type the codes.  
 * The staging area is where you will prepare all the files to send them to the repository/cloud in Github.  
 * You add codes to the staging area with "**git add**".  
@@ -39,14 +42,11 @@ Additionally if you want to "**git push**" it to github, you need to link the SS
 
 
 
-
-![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-19%20at%201.11.33%20PM.png)
-
 ---
 ## [Workflow & Commands](https://docs.google.com/presentation/d/1b777MzxqxIpTITSXiPOdn9427Oo7VclwecAiZ-5boy8/edit#slide=id.ge18f0c268_0_31)
 
 "**Git status**" checks all the changes so made so far on your cloud, and if you have "added them".  
-```
+```html
 jeffreyg2240:~/workspace/github-tutorial (master) $ git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
@@ -80,14 +80,14 @@ $ git commit -m "added a explaination of git commit"
 ```
 ["**Git remote add origin URL**"](https://docs.google.com/presentation/d/1DcOm1hZQTgsJYxqCE5na8zEAhlyh_Z0V4ivtt8aAsf0/edit#slide=id.g3ad02a1f9_010), connects your current project file to a repository on c9.
 * remote sets up an connection between github and your c9 account.
-* add, adds a new bridge.
-* origin, can be any name, origin is just a name for the bridge, remote you are making, it can be renamed to anything.
-* URL, you this this from your github everytime you make a new repository, copy the SSH, URL and paste it in place of the "**URL**"
+* **add**, adds a new bridge.
+* _origin_, can be any name, origin is just a name for the bridge, remote you are making, it can be renamed to anything.
+* _URL_, you this this from your github everytime you make a new repository, copy the SSH, URL and paste it in place of the "**URL**"
 ["**Git push -u origin master**"](https://docs.google.com/presentation/d/1DcOm1hZQTgsJYxqCE5na8zEAhlyh_Z0V4ivtt8aAsf0/edit#slide=id.ge239e83e1_0_10) 
-* Push, pushes the project to github, but it requires a bridge and direction to which branch.
-* -u helps remember which branch and repo you last pushed it to, so you can just type "**git push**" next time
-* origin, must be the same name you named the bridge, remote, in "**Git remote add origin URL**".
-* master, the _**default** main branch_, unless manually changed.
+* **Push**, pushes the project to github, but it requires a bridge and direction to which branch.
+* **-u** helps remember which branch and repo you last pushed it to, so you can just type "**git push**" next time
+* _origin_, must be the same name you named the bridge, remote, in "**Git remote add origin URL**".
+* **master**, the _**default** main branch_, unless manually changed.
 
 ---
 ## [Rolling Back Changes](https://docs.google.com/presentation/d/1yBhhaSNtHEC4Sqc-jMxeMMqPeNOT7zVuiOU_e5eWV_8/edit#slide=id.g25a990f774_1_10)
