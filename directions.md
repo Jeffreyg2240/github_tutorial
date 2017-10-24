@@ -15,7 +15,7 @@
 ## _Topics_
 
 * git vs github overview
-  * explain what each is, and the difference between the two
+  * explain what each is, and the FFFrrrrrrrrrrrr between the two
   * [10%]
 * one-time setup
   * making a github account, SSH key

@@ -106,6 +106,6 @@ origin  git@github.com:Jeffreyg2240/github-tutorial.git (push)
 You can rollback to your previous **edit**,  "**git add**", "**git commit**", and "**git push**".
 * "**Git checkout --filename**", it reverts to last time the file was added to stage
 * "**Git reset HEAD filename**", it removes a file from stage.
-* "**Git reset HEAD~1**", it removes takes 2 steps back and does the same as "**Git reset --easy HEAD~1**" and "**Git checkout --filename**", it moves the file from repository to working directory.
-* "**Git reset --easy HEAD~1**", it uncommits the file and removes it from repository
+* "**Git reset HEAD~1**", it removes takes 2 steps back and does the same as "**Git reset --soft HEAD~1**" and "**Git checkout --filename**", it moves the file from repository to working directory.
+* "**Git reset --soft HEAD~1**", it uncommits the file and removes it from repository, and it takes it to 
 * "**Git reset --hard HEAD~1**" it uncommits the file and removes it from staging area and it moves the file from repository in github to working directory.
