@@ -19,6 +19,8 @@ Git is used to help move files into or out of Github. Git tracks file verisons a
 1. Once in settings click on SSH and GPG keys.
 1. Click on new SSH key  
 ![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-19%20at%201.11.33%20PM.png)
+
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-19%20at%201.12.18%20PM.png)
 1. Name it "** c9 - 'Name' "  ***(Dont close the page)***
 1. Now open your _**c9**_ and log in
 2. Click on the gear icon in the top right
@@ -27,12 +29,14 @@ Git is used to help move files into or out of Github. Git tracks file verisons a
 3. Paste it to your key section in the Github page that you still have open.
 
 #### Congrats your are done setting up your SSH key, and are ready to link and push to Github!
+Open your [c9](https://c9.io/) and do as **this** page says to create a new repository.  
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-19%20at%201.25.36%20PM.png)
 
 ---
 ## Repository Setup
 * "**Git init**" stands for git initize. It helps initize the folder/repository so that other git commands, like "**git add**", "git commit**", and "**git remote**".  
 * There are 3 parts to the git project, working directory, staging area, and repository.  
-![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-20%20at%201.00.39%20PM.pnghttps://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-20%20at%201.00.39%20PM.png)
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Screen%20Shot%202017-10-20%20at%201.00.39%20PM.png)
 * The working directory is where you will type the codes.  
 * The staging area is where you will prepare all the files to send them to the repository/cloud in Github.  
 * You add codes to the staging area with "**git add**".  
@@ -45,7 +49,20 @@ jeffreyg2240:~/workspace/github-tutorial (master) $ git commit -m "Commit exampl
  1 file changed, 12 insertions(+), 12 deletions(-)
 ```
 Additionally if you want to "**git push**" it to github, you need to link the SSH and create a github repository with the same name as the c9 file.
+#### Also "**rm -rf .git**" removes git from a file, _**BUT**_ if you "**git init**" in a branch that comes before it, "**rm -rf .git**" would not remove git from the current file you are in.
 
+In order to fix this you would need to "cd .." into which ever file you first "**git init**" in and remove git with "**rm -rf .git**" on that branch.
+
+```html
+jeffreyg2240:~/workspace $ git init
+Initialized empty Git repository in /home/ubuntu/workspace/.git/
+jeffreyg2240:~/workspace (master) $ cd github-tutorial
+jeffreyg2240:~/workspace/github-tutorial (master) $ rm -rf .git
+jeffreyg2240:~/workspace/github-tutorial (master) $ cd ..
+jeffreyg2240:~/workspace (master) $ rm -rf .git
+jeffreyg2240:~/workspace $ cd github-tutorial
+jeffreyg2240:~/workspace/github-tutorial $ 
+```
 ---
 ## [Workflow & Commands](https://docs.google.com/presentation/d/1b777MzxqxIpTITSXiPOdn9427Oo7VclwecAiZ-5boy8/edit#slide=id.ge18f0c268_0_31)
 
