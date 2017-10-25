@@ -125,4 +125,9 @@ You can rollback to your previous **edit**,  "**git add**", "**git commit**", an
 * "**Git reset HEAD filename**", it removes a file from stage.
 * "**Git reset HEAD~1**", it removes takes 2 steps back and does the same as "**Git reset --soft HEAD~1**" and "**Git checkout --filename**", it moves the file from repository to working directory.
 * "**Git reset --soft HEAD~1**", it uncommits the file and removes it from repository, and it takes it to 
-* "**Git reset --hard HEAD~1**" it uncommits the file and removes it from staging area and it moves the file from repository in github to working directory.
+* "**Git reset --hard HEAD~1**", deletes all commits changes and goes back to previous commit. 
+* "**Git log**", it shows you all the previous commits and the notes you added with it, you can copy the code each commits give and rollback to it.
+**NOTE YOU CLICK "Q" TO EXIT**
+![]()
+
+* ["**Git reset HARD --''**"](https://docs.google.com/presentation/d/1yBhhaSNtHEC4Sqc-jMxeMMqPeNOT7zVuiOU_e5eWV_8/edit#slide=id.g25a990f774_1_4) Sets it back to a 
