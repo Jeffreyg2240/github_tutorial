@@ -99,7 +99,7 @@ $ git add .
 ```
 $ git commit -m "added a explaination of git commit"
 ```
-["**Git remote add origin URL**"](https://docs.google.com/presentation/d/1DcOm1hZQTgsJYxqCE5na8zEAhlyh_Z0V4ivtt8aAsf0/edit#slide=id.g3ad02a1f9_010), connects your current project file to a repository on c9.
+  ["**Git remote add origin URL**"](https://docs.google.com/presentation/d/1DcOm1hZQTgsJYxqCE5na8zEAhlyh_Z0V4ivtt8aAsf0/edit#slide=id.g3ad02a1f9_010), connects your current project file to a repository on c9.
 * remote sets up an connection between github and your c9 account.
 * **add**, adds a new bridge.
 * _origin_, can be any name, origin is just a name for the bridge, remote you are making, it can be renamed to anything.
@@ -123,11 +123,15 @@ origin  git@github.com:Jeffreyg2240/github-tutorial.git (push)
 You can rollback to your previous **edit**,  "**git add**", "**git commit**", and "**git push**".
 * "**Git checkout --filename**", it reverts to last time the file was added to stage
 * "**Git reset HEAD filename**", it removes a file from stage.
-* "**Git reset HEAD~1**", it removes takes 2 steps back and does the same as "**Git reset --soft HEAD~1**" and "**Git checkout --filename**", it moves the file from repository to working directory.
-* "**Git reset --soft HEAD~1**", it uncommits the file and removes it from repository, and it takes it to 
-* "**Git reset --hard HEAD~1**", deletes all commits changes and goes back to previous commit. 
+* "**Git reset HEAD~1**", it removes takes 2 steps back from the repository to moves the working directory.
+* "**Git reset --soft HEAD~1**", deletes the changes of the previous commit, and puts it the staging area.  
+* "**Git reset --hard HEAD~1**", deletes all changes and goes back to previous commit.  
+![hi](https://i.stack.imgur.com/qRAte.jpg)
 * "**Git log**", it shows you all the previous commits and the notes you added with it, you can copy the code each commits give and rollback to it.
 **NOTE YOU CLICK "Q" TO EXIT**
-![]()
+![hi](https://ffcb9532-a-cd86e757-s-sites.googlegroups.com/a/hstat.org/jeffreyg2240sep11/github/githubtutorial/Screen%20Shot%202017-10-25%20at%201.06.07%20PM.png?attachauth=ANoY7crB0M7UAmGyvjcc9ldI97c-l9SAsdkOIkSWXU5b-n5DAXTVX99hRP-1gcjOqL9Mi-MDnUPJIiDsVYtVGBI-aRqEl1QRot9CoUj8J6OB16FolOqQF49e7f4bp7m9wGwK0hGzxVxS6ZoFBPnHAEisoJ_fdCkjbtPRRVCAh0_3gn5iI7FXzt07vN0vzNK8YWE0ksUvNaSu5RHu-qt48zloFKzGBy9b7p5RaqLT7f8doCmntxYbHoFt4iK_19ASnfYi_CRlHHMdsOkqYZUtbmtNE8bipYFWGg%3D%3D&attredirects=0)  
+* ["**Git reset HARD --''**"](https://docs.google.com/presentation/d/1yBhhaSNtHEC4Sqc-jMxeMMqPeNOT7zVuiOU_e5eWV_8/edit#slide=id.g25a990f774_1_4) Sets it back to a specific time depending on which "**git log**" code you choose.
 
-* ["**Git reset HARD --''**"](https://docs.google.com/presentation/d/1yBhhaSNtHEC4Sqc-jMxeMMqPeNOT7zVuiOU_e5eWV_8/edit#slide=id.g25a990f774_1_4) Sets it back to a 
+---
+## Collaboration
+"**Git remote -v**", this commands checks what remote your project is currently connected to.
