@@ -134,4 +134,19 @@ You can rollback to your previous **edit**,  "**git add**", "**git commit**", an
 
 ---
 ## Collaboration
-"**Git remote -v**", this commands checks what remote your project is currently connected to.
+* "**Git remote remove**", removes the connection to the remote file, github in this case.
+* "**Git remote -v**", this commands checks what remote your project is currently connected to.
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Capture.JPG)
+* "**Git clone 'URL'**", it creates a copy of the repository to your local server.
+The URL is the SSH code from every time you create a new repository in github.
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Capture11.JPG)
+
+When you fork a file, you are basically cloning a file, but the owner of the project will still be from the cloud you forked it from.  
+Forking a project allows for you to sumbit "**pull requests**", which allows the owner of the project to see what changes you made in his/her project,  
+and allows him/her to **merge** your verison of the file to his/her. Merging is replacing their project with the one you sumbitted.  
+To [fork](https://docs.google.com/presentation/d/1DU_Q9CJZ2_KHue4MnfKmd0sJWMowp94OAIfQceluosY/edit#slide=id.ge40aa0d51_0_47) a project you would need to do basically what you did to clone the project with a few more steps.
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Capture4.JPG)
+You click on fork, and fork the project, then you copy the SSH of the forked project and clone it.  
+To sumbit a "**pull request**", you click on Pull requests, then "**New pull request**", and finally click on "**Create pull request**" once you are done with your message to the owner.  
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Capture2.JPG)
+![hi](https://github.com/Jeffreyg2240/github-tutorial/blob/master/Capture3.JPG)
