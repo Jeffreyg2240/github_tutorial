@@ -136,7 +136,7 @@ You can rollback to your previous **edit**,  "**git add**", "**git commit**", an
 ## Collaboration
 * "**Git remote remove**", removes the connection to the remote file, github in this case.
 * "**Git remote -v**", this commands checks what remote your project is currently connected to.
-![hi](https://github.com/Jeffreyg2240/github_tutorial/blob/master/Capture.JPG)
+![hi](https://raw.githubusercontent.com/Jeffreyg2240/github_tutorial/master/Capture.JPG)
 * "**Git clone 'URL'**", it creates a copy of the repository to your local server.
 The URL is the SSH code from every time you create a new repository in github.
 ![hi](https://github.com/Jeffreyg2240/github_tutorial/blob/master/Capture11.JPG)
@@ -148,5 +148,7 @@ To [fork](https://docs.google.com/presentation/d/1DU_Q9CJZ2_KHue4MnfKmd0sJWMowp9
 ![hi](https://github.com/Jeffreyg2240/github_tutorial/blob/master/Capture4.JPG)
 You click on fork, and fork the project, then you copy the SSH of the forked project and clone it.  
 To sumbit a "**pull request**", you click on Pull requests, then "**New pull request**", and finally click on "**Create pull request**" once you are done with your message to the owner.  
+
 ![hi](https://github.com/Jeffreyg2240/github_tutorial/blob/master/Capture2.JPG)
+
 ![hi](https://github.com/Jeffreyg2240/github_tutorial/blob/master/Capture3.JPG)
